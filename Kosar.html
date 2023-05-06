@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfectisimo Pizzeria</title>
+  <link rel="stylesheet" href="Perfectissimo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+  <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-black">
+    <div class="container-fluid text-light">
+      <a class="navbar-brand">Perfectisimo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./Fooldal.html">Fooldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Webshop.html">Webshop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./Kosar.html">Kosar <span class="badge text-bg-danger">4</span> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Kapcsolat.html">Kapcsolat</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row col-12 mx-3">
+
+    <div class="bg-body-secondary row col-3">
+      <div>
+        <ul class="list-group mx-2 my-2">
+          <li class="list-group-item">
+            <input class="form-check-input me-1 my-5" type="radio" name="listGroupRadio" value="" id="firstRadio">
+            <label class="form-check-label my-1 h3" for="firstRadio"><span class="badge bg-primary my-1">Volt</span>
+              <hr class="my-0" />
+              <p class="h5">590Ft</p>
+              <p class="text-muted h6">GPS nyomonkovetes, <br>60 perces kiszallitasi ido</p>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input class="form-check-input me-1 my-5" type="radio" name="listGroupRadio" value="" id="secondRadio">
+            <label class="form-check-label my-1 h3" for="secondRadio"><span
+                class="badge bg-danger my-1">FoodMedve</span>
+              <hr class="my-0" />
+              <p class="h5">490Ft</p>
+              <p class="text-muted h6">GPS nyomonkovetes, <br>75 perces kiszallitasi ido</p>
+            </label>
+          </li>
+          <li class="list-group-item">
+            <input class="form-check-input me-1 my-5" type="radio" name="listGroupRadio" value="" id="thirdRadio"
+              checked>
+            <label class="form-check-label my-1 h3" for="thirdRadio">Az etterem
+              <hr class="my-0" />
+              <p class="h5">Nincsen szallitasi dij!</p>
+              <p class="text-muted h6">90 perces kiszallitasi ido</p>
+            </label>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="bg-body-secondary row col-3">
+      
+      <div>
+        <div class="card mx-2 mt-2 px-2 py-2">
+          <input class="form-control form-control-lg mb-2" type="text" placeholder="Neved"
+            aria-label=".form-control-lg example">
+          <input class="form-control mb-2" type="text" placeholder="Telefonszam" aria-label="default input example">
+          <input class="form-control mb-2" list="datalistOptions" id="exampleDataList" placeholder="Varos">
+          <datalist id="datalistOptions">
+            <option value="Szombathely">
+            <option value="Tihany">
+            <option value="Regensburg">
+          </datalist>
+          <input class="form-control mb-2" type="text" placeholder="Hazszam">
+          <div class="row card mx-1">
+            <div class="row card-body mx-1">
+              <center>Rendelesed vegosszege:<br class="my-0">
+              13,169 Ft<hr class="my-3">
+              <button type="button" class="btn btn-outline-success">Megrendelem!</button></center>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="row col-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Kosarad</h5>
+          <hr />
+          <div class="row g-3">
+            <div class="card-body col-12 row">
+              <div class="row col-3">
+                <img src="./Fotok/margharita.jpg">
+              </div>
+              <div class="row col-9">
+                <h5 class="card-title">Margharita <span class="badge bg-success rounded-1">Vegetarianus</span></h5>
+                <p class="card-text">
+                  <span class="badge text-bg-warning">Paradicsomos alap</span>
+                  <span class="badge text-bg-warning">Sajt</span>
+                  <span class="badge text-bg-warning">Bazsalikom</span>
+                </p>
+                <div class="d-grid">
+                  <p class="display-6">1,399 Ft</p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="card-body col-12 row">
+              <div class="row col-3">
+                <img src="./Fotok/negysajt.jpg">
+              </div>
+              <div class="row col-9">
+                <h5 class="card-title">Negysajtos <span class="badge bg-success rounded-1">Vegetarianus</span></h5>
+                <p class="card-text">
+                  <span class="badge text-bg-warning">Paradicsomos alap</span>
+                  <span class="badge text-bg-warning">Trapista</span>
+                  <span class="badge text-bg-warning">Feta</span>
+                  <span class="badge text-bg-warning">Gouda</span>
+                  <span class="badge text-bg-warning">Cheddar</span>
+                </p>
+                <div class="d-grid">
+                  <p class="display-6">2,590 Ft</p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="card-body col-12 row">
+              <div class="row col-3">
+                <img src="./Fotok/mcncheese.jpg">
+              </div>
+              <div class="row col-9">
+                <h5 class="card-title">Mac n' Cheese <span class="badge bg-success rounded-1">Vegetarianus</span></h5>
+                <p class="card-text">
+                  <span class="badge text-bg-warning">Tejfolos alap</span>
+                  <span class="badge text-bg-warning">Sajt</span>
+                  <span class="badge text-bg-warning">Sajtos makaroni</span>
+                </p>
+                <div class="d-grid">
+                  <p class="display-6">3,590 Ft</p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="card-body col-12 row">
+              <div class="row col-3">
+                <img src="./Fotok/pokol.jpg">
+              </div>
+              <div class="row col-9">
+                <h5 class="card-title">Pokol <span class="badge bg-danger rounded-1">Csipos!</span></h5>
+                <p class="card-text">
+                  <span class="badge text-bg-warning">Carolina reaper alap</span>
+                  <span class="badge text-bg-warning">Sajt</span>
+                  <span class="badge text-bg-warning">Jalapeno</span>
+                  <span class="badge text-bg-warning">Csipos szalami</span>
+                  <span class="badge text-bg-warning">Chili pehely</span>
+                </p>
+                <div class="d-grid">
+                  <p class="display-6">5,590 Ft</p>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-5" />
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <footer class="footer py-3 mt-5 bg-black">
+    <div class="container">
+      <span class="text-light">Perfectisimo pizzeria</span>
+      <br>
+      <span class="text-opacity-75">97XX Szombathely, Jaszai Janos Utca 42.</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
